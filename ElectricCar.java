@@ -6,10 +6,12 @@ public class ElectricCar extends Car {
         this.chargingTime = chargingTime;
     }
 
+    // returns the charging time
     public String getChargingTime() {
         return chargingTime;
     }
 
+    // returns all the electric car data
     @Override
     public void getInfo() {
         System.out.println("Electric car name: " + name + "\nNumber of seats: " + seats + "\nColor: " + color + "\nCharging time: " + chargingTime);
