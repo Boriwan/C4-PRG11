@@ -1,12 +1,12 @@
 public class ElectricCar extends Car {
-    private final int chargingTime;
+    private final String chargingTime;
 
-    public ElectricCar(String name, int seats, String color, int chargingTime) {
+    public ElectricCar(String name, int seats, String color, String chargingTime) {
         super(name, seats, color);
         this.chargingTime = chargingTime;
     }
 
-    public int getChargingTime() {
+    public String getChargingTime() {
         return chargingTime;
     }
 
